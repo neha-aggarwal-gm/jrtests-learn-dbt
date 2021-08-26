@@ -34,7 +34,6 @@ models:
       columns:
           - name: order_date
             description: "The primary key for this table"
-            tests:
-                - unique
+
 
     - name: dim_date
